@@ -1,0 +1,20 @@
+
+
+Distance map
+http://colorbrewer2.org/index.php?type=sequential&scheme=RdPu&n=9
+
+0x FFF7F3; 
+0x FDE0DD; 
+0x FCC5C0; 
+0x FA9FB5; 
+0x F768A1; 
+0x DD3497; 
+0x AE017E; 
+0x 7A0177; 
+0x 49006A; 
+
+
+Distance map - 7 categories
+http://colorbrewer2.org/index.php?type=sequential&scheme=RdPu&n=7
+
+0xFEEBE2; 0xFCC5C0; 0xFA9FB5; 0xF768A1; 0xDD3497; 0xAE017E; 0x7A0177; 

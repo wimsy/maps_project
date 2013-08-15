@@ -1,0 +1,49 @@
+/** bubble visualization */
+
+#openpaths{
+  marker-fill: #D95F02;
+  marker-line-color: #D95F02;
+  marker-line-width: 2;
+  marker-line-opacity: 0.5;
+  marker-opacity: 0.5;
+  marker-comp-op: overlay;
+  marker-placement: point;
+  marker-type: ellipse;
+  marker-allow-overlap: true;
+  marker-clip: false;
+  marker-multi-policy: largest;
+}
+#openpaths [ day_type = 'weekend'] {
+   marker-fill: #1B9E77;
+   marker-line-color: #1B9E77;
+}
+#openpaths [ dwell <= 265.351111111111] {
+   marker-width: 25.0;
+}
+#openpaths [ dwell <= 15.9288888888889] {
+   marker-width: 23.3;
+}
+#openpaths [ dwell <= 13.0844444444444] {
+   marker-width: 21.7;
+}
+#openpaths [ dwell <= 10.9511111111111] {
+   marker-width: 20.0;
+}
+#openpaths [ dwell <= 8.85333333333333] {
+   marker-width: 18.3;
+}
+#openpaths [ dwell <= 7.11111111111111] {
+   marker-width: 16.7;
+}
+#openpaths [ dwell <= 5.04888888888889] {
+   marker-width: 15.0;
+}
+#openpaths [ dwell <= 3.62666666666667] {
+   marker-width: 13.3;
+}
+#openpaths [ dwell <= 2.41777777777778] {
+   marker-width: 11.7;
+}
+#openpaths [ dwell <= 1.17333333333333] {
+   marker-width: 10.0;
+}

@@ -1,0 +1,8 @@
+*.csv
+*.md
+*.py
+*.png
+.DS_Store
+*.pyc
+*.json
+*.pkl

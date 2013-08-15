@@ -1,0 +1,38 @@
+/** color visualization */
+
+#openpaths_merge {
+   marker-opacity: 0.9;
+   marker-allow-overlap: true;
+   marker-placement: point;
+   marker-type: ellipse;
+   marker-width: 12;
+   marker-line-width: 0;
+   marker-fill: #7A0177;
+   marker-line-opacity: 0.9;
+   
+}
+
+#openpaths_merge[d>0.1] {
+   marker-fill: #AE017E;
+
+}
+#openpaths_merge[d>1.0] {
+   marker-fill: #DD3497;
+
+}
+#openpaths_merge[d>10.0] {
+   marker-fill: #F768A1; 
+
+}
+#openpaths_merge[d>40.0] {
+   marker-fill: #FA9FB5;
+
+}
+#openpaths_merge[d>100.0] {
+   marker-fill: #FCC5C0;
+
+}
+#openpaths_merge[d>200.0] {
+   marker-fill: #FEEBE2;
+   marker-line-width: 1;
+}
